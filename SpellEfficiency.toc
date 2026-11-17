@@ -1,0 +1,15 @@
+## Interface: 16001
+## Title: SpellEfficiency
+## Notes: Glows your best damage spell, adds damage/mana stats to spell tooltips, shows Blizzard's next-spell suggestion, and compares your spells. /se
+## Author: drago
+## Version: 1.0.0
+## X-Flavor: Forever
+## SavedVariables: SpellEfficiencyDB
+
+Libs\LibStub\LibStub.lua
+Libs\LibCustomGlow-1.0\LibCustomGlow-1.0.xml
+
+SpellEfficiency.lua
+Glow.lua
+NextSpell.lua
+Tooltip.lua
